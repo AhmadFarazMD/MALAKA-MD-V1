@@ -22,7 +22,7 @@ ANTI_BOT: process.env.ANTI_BOT === undefined ? "false" : process.env.ANTI_BOT,
 ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "false" : process.env.ALLWAYS_OFFLINE,
 READ_CMD: process.env.READ_CMD === undefined ? "true" : process.env.READ_CMD,
 RECORDING: process.env.RECORDING === undefined ? "false" : process.env.RECORDING,
-AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
+AI_CHAT: process.env.AI_CHAT === undefined ? "true" : process.env.AI_CHAT,
 AUTO_REACT: process.env.AUTO_REACT === undefined ? "false" : process.env.AUTO_REACT,
 BAD_NO_BLOCK: process.env.BAD_NO_BLOCK === undefined ? "false" : process.env.BAD_NO_BLOCK,
 };
